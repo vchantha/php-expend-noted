@@ -1,0 +1,28 @@
+version: "3.9"
+services:
+
+  web:
+    build: './public/'
+    depends_on:
+      - db 
+    ports:
+      - 1001:80
+    volumes:
+      #- www_data:/var/www:rw
+      - ./public/:/var/www/html/
+  db:
+    build: './db/'
+    ports:
+      - "3306:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./db/detsdb.sql:/docker-entrypoint-initdb.d/detsdb.sql
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=root123
+      - MYSQL_DATABASE=detsdb
+      - MYSQL_USER=admin
+      - MYSQL_PASSWORD=admin
+volumes:
+  db_data:
+  #www_data:
