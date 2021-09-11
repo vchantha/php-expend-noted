@@ -6,8 +6,8 @@
   
   - Hardware
   
-  -- RAM : 2G
-  -- HDD : 60G
-  -- VGA : n/a
-  -- NW  : 2 LAN (1 Internal | 1 Intenet )
-  --
+  . RAM : 2G
+  . HDD : 60G
+  . VGA : n/a
+  . NW  : 2 LAN (1 Internal | 1 Intenet )
+  
