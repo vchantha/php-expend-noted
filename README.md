@@ -4,7 +4,7 @@
 
 # Prepare enviroment
   
-  - Hardware
+  - ### Hardware
   
   + RAM : 2G
   + HDD : 60G
