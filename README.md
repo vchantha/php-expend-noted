@@ -13,11 +13,11 @@
 
   ### Sofware
   
-  + OS :  . Centos7
-          . Vagrant 
-          . Virtualbox
-          . Xshell
-          . Vscode
+  . Centos7
+  . Vagrant 
+  . Virtualbox
+  . Xshell
+  . Vscode
   
  
   
